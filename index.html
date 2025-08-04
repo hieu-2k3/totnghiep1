@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello, graduate.</title>
+    <link rel="stylesheet" href="style.min.css"/>
+    <meta property="og:image" content="./assets/grad_invitation_og.png"/>
+    <meta property="og:description" content="You're invited. Open this webpage to see the details.">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="main-page" id="img-memorabilla-a">
+      <section class="normal-section centre-section full-page z-1">
+        <div class="opening">
+          <!-- <h1 class="xlarge-text">TODO: opening section, mobile compatibility, new images</h1>
+            <div class="closing-empty"></div> -->
+          <div id="opening-message">
+            <button onclick="document.getElementById('bg-music').play()">🎵 Bấm để phát nhạc</button>
+
+          <audio id="bg-music" loop>
+            <source src="./assets/nhactn.mp3" type="audio/mpeg">
+            Trình duyệt không hỗ trợ phát nhạc.
+          </audio>
+
+            <h1 class="xlarge-text mobile-centre" id="headline">
+              Cuối cùng, ngày này cũng đã đến.
+            </h1>
+            <p class="mobile-centre">
+              Những năm tháng đại học là giai đoạn mà chúng ta đã trải qua bao nhiêu thăng trầm,
+              vui có, buồn có.
+              Tất cả đã được gói gọn vào 2 chữ "Kỷ niệm".
+            </p>
+            <p class="mobile-centre">
+              <a class="underlineEffect">
+                Vì vậy, để kết thúc chương cuối của thời sinh viên,
+                tôi mời bạn đến buổi lễ tốt nghiệp của tôi để chúng ta có một "Happy Ending".
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="transparent"></div>
+      <section class="normal-section full-page location">
+        <div class="text-centre centre-section">
+          <p>Địa chỉ: Học Viện Tài Chính, 58 Lê Văn Hiến, Thành Phố Hà Nội.</p>
+          <p>Thời gian: 15h30-16h30, Ngày 10/08/2025</p>
+          <img
+            src="./assets/address.jpg"
+            alt="A map of Imus pinned at Shakey's Imus."
+            id="s-map"
+          />
+          <!-- <div class="shakeys-front">
+            <img
+              src="./assets/shakeys-transparent_new.webp"
+              alt="An image of a Shakey's branch"
+              id="s-branch"
+              class="p-l"
+            />
+          </div> -->
+        </div>
+      </section>
+      <div class="transparent"></div>
+      <section class="normal-section invitees-section">
+        <div class="invitees">
+          <h2 class="large-text place-items-centre light mobile-centre">
+            Các cậu không phải là người duy nhất đến đây.
+          </h2>
+          <div class="marquee font-nunito">
+            <div class="marquee-group rtl-animation">
+              <span>Tập thể lớp A2K31</span>
+              <span>Hiếu Hà đẹp zai</span>
+              <span>Trường Lân xấu zai</span>
+              <span>Đạt Mít</span>
+              <span>Hội đồng hương</span>
+              <span>Ling Giang</span>
+              <span>Hiếu Hồng</span>
+            </div>
+            <div class="marquee-group rtl-animation" aria-hidden="true">
+              <span>Tôm Long</span>
+              <span>Hoàng An</span>
+              <span>Hoàng Hiếu</span>
+              <span>Tuấn Hùng</span>
+              <span>Hoàng phượng</span>
+              <span>Đạt Đáp</span>
+              <span>Tuấn Bét</span>
+            </div>
+          </div>
+          <div class="marquee font-nunito">
+            <div class="marquee-group ltr-animation">
+              <span>Hào, Tú</span>
+              <span>Yên Khánh</span>
+              <span>Minh Hằng</span>
+              <span>Khánh Huyền</span>
+              <span>Khánh Linh</span>
+              <span>Khánh Chi</span>
+            </div>
+            <div class="marquee-group ltr-animation" aria-hidden="true">
+              <span>Hiếu Thanh</span>
+              <span>Mỹ Anh</span>
+              <span>Thảo Tuấn</span>
+              <span>Hằng Giò</span>
+              <span>Ánh Dương</span>
+              <span>Trung</span>
+            </div>
+          </div>
+          <div class="marquee font-nunito">
+            <div class="marquee-group rtl-animation-slow">
+              <span>Đức Anh</span>
+              <span>Hồ Thương</span>
+              <span>Bum</span>
+              <span>Anh Hiệp</span>
+            </div>
+            <div class="marquee-group rtl-animation-slow" aria-hidden="true">
+              <span>Anh Huy</span>
+              <span>Chị Hương</span>
+              <span>Chị Phương</span>
+              <span>Chị Hiền</span>
+            </div>
+          </div>
+          <div class="marquee font-nunito">
+            <div class="marquee-group ltr-animation-slow">
+              <span>Chị Thu</span>
+              <span>Tập thể lớp 9B</span>
+              <span>Uyên</span>
+              <span>Mậu Tuấn</span>
+              <span>Hồng Nhung</span>
+              <span>Quân</span>
+              <span>Long Hiếu</span>
+            </div>
+            <div class="marquee-group ltr-animation-slow" aria-hidden="true">
+              <span>Cải</span>
+              <span>Linh Hải Phòng</span>
+              <span>Miha</span>
+              <span>Đội trưởng đội svtn Hà Tĩnh nk mới nhất</span>
+              <span>Nhi Thắng</span>
+              <span>Ngọc Sơn</span>
+              <span>Và còn nhiều bạn nữa...</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="closing-page" id="img-memorabilla-b">
+      <div class="closing-empty"></div>
+      <section class="acrylic-section centre-section">
+        <h1 class="xlarge-text">Hẹn gặp lại các cậu vào ngày tốt nghiệp của mình nhé.</h1>
+        <img src="./assets/baotn.jpg" alt="An image of Tiro." id="tiro-glad">
+        <p>Nguyễn Văn Bảo</p>
+      </section>
+      <div class="closing-empty"></div>
+
+      <section class="acrylic-section-footer centre-section text-centre">
+        <p class="underlineEffect2"><a href="https://github.com/msyagami/graduation-party-invitation/" class="gh-link">Được thực hiện bởi Hoàng Trung Hiếu Developer. Nó là mã nguồn mở.</a></p>
+      </section>
+    </div>
+  </body>
+</html>
